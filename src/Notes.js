@@ -17,11 +17,6 @@ function Notes()
     {
         let tit=title.trim();
         let con=content.trim();
-        let date=new Date();
-        console.log(date.getDate());
-        console.log(date.getMonth());
-        console.log(date.getFullYear());
-        console.log(date.getDay());
         if(tit===""||con==="")
         {
             alert("Enter the note in correct format");
