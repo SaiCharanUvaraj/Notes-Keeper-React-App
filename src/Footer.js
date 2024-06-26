@@ -1,0 +1,17 @@
+/*
+const date=new Date();
+let year=date.getFullYear();
+let months={
+    0:"Jan", 1:"Feb", 2:"Mar", 3:"Apr", 4:"May", 5:"Jun", 6:"Jul", 7:"Aug", 8:"Sep", 9:"Oct", 10:"Nov", 11:"Dec"
+}
+let month=months[date.getMonth()];
+let dn=date.getDate();
+*/
+function Footer()
+{
+    return(
+        <footer className="footer">
+        </footer>
+    )
+}
+export default Footer;
