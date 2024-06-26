@@ -17,6 +17,11 @@ function Notes()
     {
         let tit=title.trim();
         let con=content.trim();
+        let date=new Date();
+        console.log(date.getDate());
+        console.log(date.getMonth());
+        console.log(date.getFullYear());
+        console.log(date.getDay());
         if(tit===""||con==="")
         {
             alert("Enter the note in correct format");
@@ -53,7 +58,7 @@ function Notes()
                 </div>
             </div>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-1 sm:p-4 mt-4">
             { notes.map((note,index) => <CreateNote key={index} noteTitle={note.noteTitle} noteContent={note.noteContent} onDelete={() => deleteNote(index)}/> ) }
         </div>
     </div>
