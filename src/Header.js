@@ -1,7 +1,7 @@
 function Header()
 {
     return(
-    <header className="bg-[#76ABAE] fixed w-full">
+    <header className="bg-[#76ABAE] fixed w-full shadow-xl shadow-black">
         <div className="flex items-center">
             <p className="text-4xl font-bold p-2"> Keeper </p>
             <svg xmlns="http://www.w3.org/2000/svg"  width="60" height="60" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
